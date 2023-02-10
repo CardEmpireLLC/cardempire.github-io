@@ -112,7 +112,7 @@ body {
 
 .topsellercard {
 	margin: 15px;
-	padding: px;
+	padding: 0px;
 
 }
 
@@ -122,5 +122,5 @@ body {
 
 .topsellertitle {
 	border-bottom: 3px solid yellow;
-	width: 200px;
+	width: 325px;
 }
