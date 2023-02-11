@@ -135,3 +135,10 @@ body {
 	padding: 5px;
 	margin: 5px;
 }
+
+.buyimgtext {
+	border-bottom: 3px solid black;
+	border-height: 325px;
+	color: black;
+
+}
