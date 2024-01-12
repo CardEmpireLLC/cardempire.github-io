@@ -2,6 +2,7 @@ body {
 	overflow-x: hidden;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	font-family: 'Oswald', sans-serif;
 }
 
 #carouselpicsize {
@@ -142,3 +143,12 @@ body {
 	color: black;
 
 }
+
+.rowtitle {
+	text-align: center;
+	-webkit-text-stroke-width: 1.7px;
+  	-webkit-text-stroke-color: black;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 50px;
+}
+
