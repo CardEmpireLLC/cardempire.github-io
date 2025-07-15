@@ -1,153 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CardEmpire - Sell Your Stuff!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    </svg>
-  </head>
-  <body class="bg-secondary">
-    <div class="alert alert-danger alert-dismissible">
-  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <strong>Warning</strong> This is just to show how the form will look. This DOES not work. Thank Yee!
-</div>
-    <div class="container-fluid bg-warning d-flex justify-content-between">
-      <ul id="leftnav"></ul>
-      <a class="clearfix p-1" href="index.html">
-        <img src="pics/1-3Dtext.png" alt="LOGOtext" style="height:30px">
-      </a>
-      <ul id="rightnav"></ul>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sell Your Cards | CardEmpire</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="pictures/favicon.ico">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="pictures/1-3Dtext.png" alt="Logo" style="height:30px">
     </div>
-    <div class="container-fluid bg-dark">
-      <ul id="bottomnav">
-        <li class="bottomnavitem">
-          <a class="bottomnavlink" href="index.html">Home</a>
-          <a class="bottomnavlink" href="sell.html">Sell Your Stuff!</a>
-          <a class="bottomnavlink" href="bulkprices.html">Bulk Prices!</a>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sell.html" class="active">Sell Your Cards</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="hero">
+    <h1>Sell Your Cards</h1>
+    <p>We offer competitive bulk prices for Pokémon, Yu-Gi-Oh!, and Magic: The Gathering cards.</p>
+  </header>
+
+  <!-- Bulk Prices Table -->
+<section class="pricing-section">
+  <h2>Current Bulk Buy Prices</h2>
+  <p class="note">All prices are for English, NM-LP condition cards. Minimums may apply. Please contact us for large collections or high-end items.</p>
+
+  <h3>Pokémon</h3>
+  <table class="pricing-table">
+    <tr><td>Common / Uncommon (1,000 cards)</td><td>$13.00</td></tr>
+    <tr><td>Reverse Holo (per 100 cards)</td><td>$18.00</td></tr>
+    <tr><td>Holo Rare (per 100 cards)</td><td>$20.00</td></tr>
+    <tr><td>Ultra Rare / EX / GX / V / VSTAR (per card)</td><td>$0.50</td></tr>
+    <tr><td>Full Art / Rainbow / Gold Cards (per card)</td><td>$1.50+</td></tr>
+    <tr><td>Bulk Energy Cards (1,000 cards)</td><td>$5.00</td></tr>
+  </table>
+
+  <h3>Yu-Gi-Oh!</h3>
+  <table class="pricing-table">
+    <tr><td>Common / Uncommon (1,000 cards)</td><td>$10.00</td></tr>
+    <tr><td>Rare (per 100 cards)</td><td>$12.00</td></tr>
+    <tr><td>Super Rare / Ultra Rare (per 100 cards)</td><td>$18.00</td></tr>
+    <tr><td>Secret Rare / Starlight Rare (per card)</td><td>$1.00+</td></tr>
+  </table>
+
+  <h3>Magic: The Gathering (MTG)</h3>
+  <table class="pricing-table">
+    <tr><td>Common / Uncommon (1,000 cards)</td><td>$12.00</td></tr>
+    <tr><td>Rare (per card)</td><td>$0.08</td></tr>
+    <tr><td>Mythic Rare (per card)</td><td>$0.20</td></tr>
+    <tr><td>Foils (bulk, per 100 cards)</td><td>$15.00</td></tr>
+  </table>
+
+  <h3>One Piece TCG</h3>
+  <table class="pricing-table">
+    <tr><td>Common / Uncommon (1,000 cards)</td><td>$14.00</td></tr>
+    <tr><td>Rares / Super Rares (per card)</td><td>$0.35</td></tr>
+    <tr><td>Leader / Secret / Parallel Rare (per card)</td><td>$1.50+</td></tr>
+  </table>
+
+  <h3>Disney Lorcana</h3>
+  <table class="pricing-table">
+    <tr><td>Common / Uncommon (1,000 cards)</td><td>$15.00</td></tr>
+    <tr><td>Rare / Super Rare (per card)</td><td>$0.50</td></tr>
+    <tr><td>Enchanted Rares (per card)</td><td>$3.00+</td></tr>
+  </table>
+
+  <h3>Other TCGs</h3>
+  <table class="pricing-table">
+    <tr><td>Dragon Ball Super / Digimon Bulk (1,000 cards)</td><td>$10.00</td></tr>
+    <tr><td>Weiss Schwarz Bulk (1,000 cards)</td><td>$12.00</td></tr>
+    <tr><td>Metazoo / Final Fantasy Bulk (1,000 cards)</td><td>$10.00</td></tr>
+  </table>
+
+  <p class="note">Don't see your cards listed? Contact us for a custom quote — we buy nearly all TCGs.</p>
+  <a href="contact.html" class="btn">Get a Quote</a>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-logo">CardEmpire</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="sell.html">Sell Your Cards</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-credit">
+        &copy; 2025 CardEmpire LLC. All rights reserved.
+      </div>
     </div>
-    <div class="container w-75 h-50 mt-3" style="">
-    <div class="container pt-4">
-      <div class="card shadow-lg">
-        <div class="card-header">
-         <h2 class="text-center card-title p-0">Get Cash Now!</h2>
-       </div>
-          <div class="card-body">
-            <p>Greetings! If you're considering selling your cards to us, we're thrilled to assist you in the process. To initiate the procedure, kindly complete the provided form, and rest assured, our team will promptly review the details you provide. Should you require information about <a href="index.html">bulk pricing</a>, please feel free to explore our homepage for comprehensive details. We sincerely appreciate your decision to partner with CardEmpireLLC for your card transactions. Thank you for choosing us as your preferred platform for all things related to cards!</p>
-          </div>
-      </div>
-      <form action="process_form.php" method="POST" class="">
-        <div class="form-group">
-          <label for="first_name">First Name:</label>
-          <input type="text" class="form-control" id="first_name" name="first_name" required>
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="last_name">Last Name:</label>
-          <input type="text" class="form-control" id="last_name" name="last_name" required>
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" name="email" required>
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="card_amount">Amount of Cards:</label>
-          <input type="number" class="form-control" id="card_amount" name="card_amount" required>
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="payment_type">Payment Type:</label>
-          <select class="form-control" id="payment_type" name="payment_type" required>
-            <option value="">Select Payment Type</option>
-            <option value="paypal">PayPal</option>
-            <option value="ahc">AHC</option>
-            <option value="check">Check</option>
-            <option value="store_credit">Store Credit</option>
-          </select>
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="card_type">Card Type:</label>
-          <select class="form-control" id="card_type" name="card_type" required>
-            <option value="">Select Card Type</option>
-            <option value="magic">Magic</option>
-            <option value="pokemon">Pokemon</option>
-            <option value="yugioh">Yugioh</option>
-            <option value="flesh_and_blood">Flesh and Blood</option>
-          </select>
-        </div>
-        <br>
-        <div class="text-center d-grid gap-2">
-        <button type="submit" class="btn btn-warning">Submit</button>
-      </div>
-      </form>
-      <br>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</div>
+  </footer>
 
-<footer class="bg-dark text-white text-center text-lg-start mt-3 w-100">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">About!</h5>
-
-        <p>
-          CardEmpire started in 2021 with a group of friends just wanting to make a nice place to chill out and sell collectibles. Over the next few years, we decided to leave the brick-and-mortar world behind and focus online. Now we're online only and hope to build an Empire!
-        </p>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Contact</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="mailto:" class="text-white">contact@cardempirellc.com</a>
-          </li>
-
-        </ul>
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Social Media</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="https://www.facebook.com/CardEmpireLLC" class="text-white">Facebook</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UC7LfCBiPXmPIeQUbocYldIQ" class="text-white">YouTube</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-white" href="#">CardEmpireLLC a SinnyNet Company</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-  </body>
+</body>
 </html>
