@@ -80,7 +80,7 @@ main {
 
 /* Hero */
 .hero {
-  background: linear-gradient(to right, #8B0000, #3b0a0a);
+  background: #4b1616;
   color: white;
   text-align: center;
   padding: 6rem 2rem;
@@ -238,7 +238,7 @@ footer {
 .carousel-container {
   position: relative; /* needed for absolute positioning buttons */
   width: 90%; /* nearly full width but with margin */
-  max-width: 1100px; /* max width limit for large screens */
+  max-width: 600px; /* max width limit for large screens */
   margin: 0 auto; /* center horizontally */
   overflow: hidden; /* hide overflow for sliding effect */
   border-radius: 24px; /* rounded corners */
@@ -261,20 +261,20 @@ footer {
 /* Carousel Slide */
 .carousel-item {
   min-width: 100%;
-  min-height: 900px;   /* 🔥 Taller slide area */
+  min-height: 500px;   /* 🔥 Taller slide area */
   display: flex;
   justify-content: center;
   align-items: center;
-  perspective: 1400px;
+  perspective: 1000px;
   flex-shrink: 0;
   padding: 0;
 }
 
 /* Card Container */
 .card-shape {
-  width: 700px;        /* 🔥 Wider card */
+  width: 400px;        /* 🔥 Wider card */
   max-width: 95vw;
-  min-height: 850px;   /* 🔥 Taller card */
+  min-height: 500px;   /* 🔥 Taller card */
   background: linear-gradient(145deg, #3a0f0f, #6b1616);
   border: 3px solid #FFD700;
   border-radius: 28px;
@@ -300,7 +300,7 @@ footer {
    IMAGE INSIDE THE CARD
    ======================= */
 .card-shape img {
-  max-height: 750px;   /* 🔥 Taller image */
+  max-height: 550px;   /* 🔥 Taller image */
   width: 100%;         /* 🔥 Wider image */
   object-fit: contain;
   border-radius: 22px;
@@ -736,7 +736,7 @@ footer {
 
 
 .events-section {
-  background: linear-gradient(to right, #8B0000, #3b0a0a);
+  background-color: #3b0a0a;
   color: white;
   text-align: center;
   padding: 5rem 2rem;
