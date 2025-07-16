@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | CardEmpire</title>
+  <title>Shop | CardEmpire</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" type="image/png" href="pictures/favicon.ico">
 </head>
 <body>
 
@@ -28,46 +27,42 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
+<!-- Store Section -->
+<section class="store-section">
+  <h1>Shop at CardEmpire</h1>
+  <div class="store-grid">
 
-
-<div class="alert-warning">
-  ⚠️ This page is still being worked on. Some features may not function.
-</div>
-
-<!-- Contact Section -->
-<section class="contact-section">
-  <h1>Contact CardEmpire</h1>
-  <p>Have cards to sell? Questions? Visit us, call us, or use the form below.</p>
-
-  <div class="contact-info">
-    <div class="info-block">
-      <h2>Our Address</h2>
-      <p>106 South 3rd St, #2<br>Williamsburg, KY 40769</p>
+    <div class="store-item">
+      <img src="pictures/pokemon-back.jpg" alt="Pokémon Card Back">
+      <h3>Pokémon Store</h3>
+      <p>Sealed products, singles, and more.</p>
+      <a href="#" class="btn">Shop Pokémon</a>
     </div>
 
-    <div class="info-block">
-      <h2>Phone Number</h2>
-      <p><a href="tel:16067030292">(606) 703-0292</a></p>
+    <div class="store-item">
+      <img src="pictures/yugioh-back.jpg" alt="Yu-Gi-Oh! Card Back">
+      <h3>Yu-Gi-Oh! Store</h3>
+      <p>Singles, decks, and booster packs.</p>
+      <a href="#" class="btn">Shop Yu-Gi-Oh!</a>
     </div>
-  </div>
 
-  <div class="map-container">
-    <iframe
-      src="https://www.google.com/maps?q=106+South+3rd+St+%232,+Williamsburg+KY+40769&output=embed"
-      width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
+    <div class="store-item">
+      <img src="pictures/mtg-back.jpg" alt="MTG Card Back">
+      <h3>MTG Store</h3>
+      <p>Magic singles, boosters, and bundles.</p>
+      <a href="#" class="btn">Shop MTG</a>
+    </div>
 
-  <h2>Send Us a Message</h2>
-  <form class="contact-form" action="#" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email Address" required>
-    <input type="text" name="subject" placeholder="Subject" required>
-    <textarea name="message" placeholder="Your Message..." rows="6" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+    <div class="store-item">
+      <img src="pictures/accessories.png" alt="Accessories">
+      <h3>Accessories & Supplies</h3>
+      <p>Sleeves, binders, playmats & more.</p>
+      <a href="#" class="btn">Shop Supplies</a>
+    </div>
+
+  </div>
 </section>
+
 
 <!-- Footer -->
 <footer class="site-footer">
@@ -84,6 +79,7 @@
     </div>
   </div>
 </footer>
+
 <script>
   const menuToggle = document.getElementById('mobile-menu');
   const navLinks = document.getElementById('nav-links');
@@ -92,6 +88,7 @@
     navLinks.classList.toggle('active');
   });
 </script>
+
 
 </body>
 </html>

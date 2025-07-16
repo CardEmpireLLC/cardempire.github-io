@@ -5,21 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sell Your Cards | CardEmpire</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" type="image/png" href="pics/favicon.ico">
+  <link rel="icon" type="image/png" href="pictures/favicon.ico">
 </head>
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">
-      <img src="pics/1-3Dtext.png" alt="Logo" style="height:30px">
-    </div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="sell.html" class="active">Sell Your Cards</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<nav class="navbar">
+  <div class="logo">
+    <img src="pictures/1-3Dtext.png" alt="Logo" style="height:30px">
+  </div>
+
+  <div class="menu-toggle" id="mobile-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="sell.html">Sell Your Cards</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
 
   <!-- Header Section -->
   <header class="hero">
@@ -99,6 +108,14 @@
       </div>
     </div>
   </footer>
+<script>
+  const menuToggle = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>
