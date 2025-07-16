@@ -720,3 +720,57 @@ footer {
   margin-top: 2rem;
   font-size: 1.8rem;
 }
+
+
+.events-section {
+  background: linear-gradient(to right, #8B0000, #3b0a0a);
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.events-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.events-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.event-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.event-item {
+  background-color: #2b2b2b;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #FFD700;
+}
+
+.event-item h3 {
+  color: #FFD700;
+  margin-bottom: 0.5rem;
+}
+
+.event-item p {
+  color: #f0f0f0;
+}
+
+.events-section .btn {
+  background: #FFD700;
+  color: #1e1e1e;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.events-section .btn:hover {
+  background: #e6c200;
+}
